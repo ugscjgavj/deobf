@@ -4,6 +4,8 @@ Partial deobfuscation of the malicious script found at rolinker.io
 
 https://deobfuscate.io/ was used in the process, so some credit goes to there, as well as some manual deobfuscation efforts
 
+Disclaimer: This is a low effort analysis, so don't expect anything especially exciting about the review of this script
+
 ## Analysis
 
 The script will attempt to do the following actions at one point or another:
