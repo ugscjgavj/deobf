@@ -1,6 +1,7 @@
 -- The script used to make this far more human readable
 -- Yes, this is deobfuscation via string manipulation
 -- Yes, its this easy
+-- It isn't perfect, but we don't need perfect, since we intend to analyse by reading
 
 local AllScriptContent = [====[(function (o, t) {
   var y = o();
