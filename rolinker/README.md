@@ -17,3 +17,11 @@ The script will attempt to do the following actions at one point or another:
 * Log you out locally after doing all the above and enabling 2fa via email (See line 292)
 
 It appears a significant amount of the script won't run unless your account has at least 4000 value in limiteds (recent average price) (See line 1073)
+
+## Analysis 2 (18th August)
+
+The url used for hosting the scam webpage was just taken down, and now a new version is up
+
+Here's whats changed between the old and new script:
+* The script now has a (very large) set of user IDs. If the user is any of them, the malicious code will run regardless of the user's RAP
+* TBD: Determine if anything else changed
