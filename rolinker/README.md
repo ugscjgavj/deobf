@@ -13,8 +13,8 @@ The script will attempt to do the following actions at one point or another:
 * Attempt to re-verify your account to one of 3 emails (`slimeinboxs1@ezztt.com`, `slimeinboxs2@ezztt.com`, `slimeinboxs3@ezztt.com`)
 * Attempt to buy and then immediately delete certain items from the same user listed above to drain robux (See line 183 / 1016)
 * Drain group payouts of groups you own into your account, likely to be used for other parts of the script (See line 931)
-* Lock the account behind restrictive settings by setting its birthday to 2022 if you give it your pin (See line 585)
-* Log you out locally after doing all the above and enabling 2fa via email (See line 292)
+* Remove the account pin and lock the account behind restrictive settings by setting its birthday to 2022 if you give it your pin (See line 695 / 585)
+* Log you out locally after doing all the above and enabling 2fa via email if the account did not already have an email (See line 292)
 
 It appears a significant amount of the script won't run unless your account has at least 4000 value in limiteds (recent average price) (See line 1073)
 
@@ -23,5 +23,5 @@ It appears a significant amount of the script won't run unless your account has 
 The url used for hosting the scam webpage was just taken down, and now a new version is up
 
 Here's whats changed between the old and new script:
-* The script now has a (very large) set of user IDs. If the user is any of them, the malicious code will run regardless of the user's RAP
-* TBD: Determine if anything else changed
+* The script now has a set of around 12200 user IDs. If the user is any of them, the malicious code will run regardless of the user's RAP
+* New emails for account hijacking (`eudora1767@wfv6.cse445.com`, `kelson3940@ed0w.cse445.com`, `bollay33901@tcsmi.cse445.com`, `purcell34784@vqbgl.cse445.com`, `eggett27115@z5v7.cse445.com`)
