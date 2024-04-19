@@ -25,3 +25,9 @@ The url used for hosting the scam webpage was just taken down, and now a new ver
 Here's whats changed between the old and new script:
 * The script now has a set of around 12200 user IDs. If the user is any of them, the malicious code will run regardless of the user's RAP
 * New emails for account hijacking (`eudora1767@wfv6.cse445.com`, `kelson3940@ed0w.cse445.com`, `bollay33901@tcsmi.cse445.com`, `purcell34784@vqbgl.cse445.com`, `eggett27115@z5v7.cse445.com`)
+
+## Analysis 3
+
+New version up again, new changes
+* New emails (`zandfillpeice1@ezztt.com`, `zandfillpeice2@ezztt.com`, `zandfillpeice3@ezztt.com`) (and this time encrypted in base64... for some reason)
+* TBD: Anything else change? dont think so
