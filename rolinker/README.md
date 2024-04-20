@@ -9,9 +9,9 @@ Disclaimer: This is a low effort analysis, so don't expect anything especially e
 ## Analysis
 
 The script will attempt to do the following actions at one point or another:
-* Friend you to https://www.roblox.com/users/5762605139/profile, presumably as tracking of who got scammed (See line 220)
+* Friend you to https://www.roblox.com/users/5762605139/profile (@slimeBallBack8), presumably as tracking of who got scammed (See line 220)
 * Attempt to re-verify your account to one of 3 emails (`slimeinboxs1@ezztt.com`, `slimeinboxs2@ezztt.com`, `slimeinboxs3@ezztt.com`)
-* Attempt to buy and then immediately delete certain items from the same user listed above to drain robux (See line 183 / 1016)
+* Attempt to buy and then immediately delete some items published by https://www.roblox.com/users/5739852458/profile (@pluginBoyBack, an already terminated user) to drain robux (See line 183 / 1016)
 * Drain group payouts of groups you own into your account, likely to be used for other parts of the script (See line 931)
 * Remove the account pin and lock the account behind restrictive settings by setting its birthday to 2022 if you give it your pin (See line 695 / 585)
 * Log you out locally after doing all the above and enabling 2fa via email if the account did not already have an email (See line 292)
