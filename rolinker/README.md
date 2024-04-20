@@ -31,3 +31,5 @@ Here's whats changed between the old and new script:
 New version up again, new changes
 * New emails (`zandfillpeice1@ezztt.com`, `zandfillpeice2@ezztt.com`, `zandfillpeice3@ezztt.com`) (and this time encrypted in base64... for some reason)
 * TBD: Anything else change? dont think so
+
+*Since the domains are now getting taken down at a frequent rate, analysis is not going to be announced unless something significant changed*
