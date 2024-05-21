@@ -1,4 +1,4 @@
-javascript: (function () {
+(function () {
   var g = function () {
     var z
     try {
