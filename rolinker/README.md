@@ -18,7 +18,7 @@ The script will attempt to do the following actions at one point or another:
 
 It appears a significant amount of the script won't run unless your account has at least 4000 value in limiteds (recent average price) (See line 1073)
 
-## Analysis 2 (18th August)
+## Analysis 2 (18th April)
 
 The url used for hosting the scam webpage was just taken down, and now a new version is up
 
